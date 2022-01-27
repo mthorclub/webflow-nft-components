@@ -83,7 +83,7 @@ export const MintModal = (props, ref) => {
             }
             {!isLoading && <>
             <DialogTitleWithClose onClose={handleClose}>
-                {step === 1 ? "Choose how many to mint" : "Pay with"}
+                {step === 1 ? "Mint GENESIS Membership NOW!" : "Pay with"}
             </DialogTitleWithClose>
             <DialogContent style={styles.mintModalContent}>
                 {step === 1 && <QuantityModalStep
